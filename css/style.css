@@ -1,0 +1,33 @@
+
+.menu{
+    color: #D813F2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #D813F2;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 25px;
+    /* align-items: center; */
+}
+.titular{
+    color: #D813F2;
+    margin-top: 50vh;
+}
+header{
+    
+    background: url(../images/fondo.png);
+    height: 100vh;
+    /* border: 1px black solid; */
+}
+
+body{
+    margin: 0%;
+}
