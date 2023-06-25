@@ -49,11 +49,13 @@ img{
     margin-left: 200px;
     margin-bottom: 100px;
     display: inline-block;  
+    background-color: black;
     /* justify-content: flex-start; */
 }
 main{
      background-color: rgba(0, 0, 0, 0.514);
      font-family: 'Orbitron', sans-serif;
+     letter-spacing: 2px;
      
 }
 .info-p{
