@@ -1,9 +1,16 @@
-
+  @import url('https://fonts.googleapis.com/css2?family=Jura&family=Major+Mono+Display&family=Orbitron&family=Share+Tech+Mono&display=swap');
+  /* font-family: 'Jura', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Share Tech Mono', monospace; */
 .menu{
-    color: #D813F2;
+    color: #940FA6;
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 5%;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 25px;
+    padding-top: 25px;
 }
 .menu li a{
     text-decoration: none;
@@ -13,13 +20,26 @@
     list-style: none;
     display: inline-block;
     margin-right: 50px;
-    margin-top: 20px;
+    /* margin-top: 25px; */
     margin-left: 25px;
-    /* align-items: center; */
+    
 }
 .titular{
-    color: #D813F2;
-    margin-top: 50vh;
+    color: #F072F2;
+    margin-top: 45vh;
+    margin-left: 10vh;
+    font-family:'Orbitron', sans-serif;
+}
+.titular a{
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #D813F2;
+    border-radius: 0px;
+    padding: 5px 5px 5px 5px;
+    /* padding-left: 60px; */
+    color: white;
 }
 header{
     
