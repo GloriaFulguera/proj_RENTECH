@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Major+Mono+Display&family=Orbitron&family=Share+Tech+Mono&display=swap');
+
+.menu{
+    color: #940FA6;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 25px;
+    padding-top: 25px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #D813F2;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    /* margin-top: 25px; */
+    margin-left: 25px;
+    
+}
+header{
+    background-color: black;
+}
+body{
+    margin: 0%;
+    background-image: url(../images/fondo.png);
+}
+.space{
+    height: 15vh;
+}
+img{
+    width: 300px;
+    border: 2px solid cyan;
+}
+.product{
+    color: azure;
+    margin-left: 200px;
+    display: inline-block;  
+    /* justify-content: flex-start; */
+}
+main{
+     
+}
+.info-p{
+    text-align: center;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
