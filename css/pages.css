@@ -13,6 +13,11 @@
     text-decoration: none;
     color: #D813F2;
 }
+.menu li a:hover{
+    text-shadow: 0 0 15px white;
+    color: white;
+    transition: all 0.7s ease;
+}
 .menu li{
     list-style: none;
     display: inline-block;
@@ -27,27 +32,38 @@ header{
 body{
     margin: 0%;
     background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .space{
     height: 15vh;
 }
+
 img{
     width: 300px;
-    border: 2px solid cyan;
+    border: 5px solid #14D9D9;
 }
 .product{
     color: azure;
     margin-left: 200px;
+    margin-bottom: 100px;
     display: inline-block;  
     /* justify-content: flex-start; */
 }
 main{
+     background-color: rgba(0, 0, 0, 0.514);
+     font-family: 'Orbitron', sans-serif;
      
 }
 .info-p{
     text-align: center;
 }
 h1{
-    color: aqua;
+    color: #14D9D9;
     text-align: center;
+    /* font-family: 'Jura', sans-serif; */
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-shadow: 0 0 15px #14D9D9;
 }
