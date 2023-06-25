@@ -12,6 +12,10 @@
     font-size: 25px;
     padding-top: 25px;
 }
+.menu p a{
+    text-decoration: none;
+    color: #940FA6;
+}
 .menu li a{
     text-decoration: none;
     color: #D813F2;
