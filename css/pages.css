@@ -82,11 +82,11 @@ section{
     padding-top: 50px;
     /* display: flex; */
 }
-.noticia img{
+article img{
     width: 800px;
     border: 0px;
 }
-.noticia{
+article{
     display: flex;
     justify-content: center;
     margin-top: 50px;
