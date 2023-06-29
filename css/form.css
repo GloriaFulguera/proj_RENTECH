@@ -41,18 +41,65 @@ body{
 
 form{
     /* background-image: url(../images/form.jpg); */
-    margin-left: 100%;
+    /* margin-left: 20%; */
+    margin-top: 5vh;
+
 }
 .contenedor{
     /* background-color: rgba(0, 0, 0, 0.445); */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .desc{
-    
+    /* margin-left: 10%; */
+    margin-top: 15vh;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 20px;
 }
 .ppal{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.829);
     text-align: center;
     margin: 0vw 20vw 0vw 20vw;
+    color:#940FA6;
+    border-radius: 10px;
+}
+.space{
+    width: 15vw;
+}
+.espacio{
+    height: 10vh;
+}
+.msj{
+    width: 80px;
+}
+input{
+    padding: 8px;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: #940FA6 2px solid;
+    border-radius: 10px;
+}
+textarea{
+    padding: 8px;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 15px;
+    border: #940FA6 2px solid;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 20px;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 15px;
+    border: 0px;
+    background-color: #940FA6;
+    color: white;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #D813F2;
+    transition: all 0.5s ease;
+}
+#redes{
+    width: 50px;
 }
