@@ -118,3 +118,51 @@ article{
 .cont-not p{
     letter-spacing: 2px;
 }
+
+
+footer{
+    margin: 0px;
+    background-color: #14D9D9;
+}
+.f-dat{
+    display: flex;
+}
+.cr p{
+    font-family: 'Share Tech Mono', monospace; 
+    text-align: center;
+    margin: 0px;
+    color: black;
+    padding-top: 30px;
+    padding: 5px;
+}
+.cr h2{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0px;
+    color: black;
+    font-family: 'Share Tech Mono', monospace; 
+}
+.iconos img{
+
+    margin: 40px 20px 20px 20px;
+    width: 30px;
+}
+.iconos{
+
+    margin: 0vh 10vw 0vh 2vw;
+}
+.datos{
+    margin: 24px 5vw 0px 10vw;
+    font-family: 'Share Tech Mono', monospace; 
+}
+@media screen and (min-width:800px) {
+    .iconos{
+        margin: 0vh 20vw 0vh 2vw;
+    }
+}
+@media screen and (min-width:1080px) {
+    .datos{
+        margin: 24px 0vw 0px 45vw;
+    }
+    
+}
