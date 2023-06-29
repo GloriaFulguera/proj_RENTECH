@@ -41,6 +41,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 .space{
     height: 15vh;
 }
@@ -52,7 +54,9 @@ img{
 }
 .product{
     color: azure;
-    margin-left: 200px;
+    margin-left: 15%;
+    
+    /* margin-right: 5vw; */
     margin-bottom: 100px;
     display: inline-block;  
     background-color: black;
@@ -72,7 +76,7 @@ h1{
     text-align: center;
     /* font-family: 'Jura', sans-serif; */
     font-size: 40px;
-    letter-spacing:15px;
+    letter-spacing:13px;
     text-shadow: 0 0 15px #14D9D9;
 }
 

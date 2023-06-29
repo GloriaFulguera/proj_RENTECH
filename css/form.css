@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Major+Mono+Display&family=Orbitron&family=Share+Tech+Mono&display=swap');
+
+.menu{
+    color: #940FA6;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 25px;
+    padding-top: 25px;
+}
+.menu p a{
+    text-decoration: none;
+    color: #940FA6;
+}
+.menu li a{
+    text-decoration: none;
+    color: #D813F2;
+}
+.menu li a:hover{
+    text-shadow: 0 0 15px white;
+    color: white;
+    transition: all 0.7s ease;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    /* margin-top: 25px; */
+    margin-left: 25px;
+    
+}
+header{
+    background-color: black;
+}
+body{
+    margin: 0%;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+}
+
+form{
+    /* background-image: url(../images/form.jpg); */
+    margin-left: 100%;
+}
+.contenedor{
+    /* background-color: rgba(0, 0, 0, 0.445); */
+    display: flex;
+    /* justify-content: center; */
+}
+.desc{
+    
+}
+.ppal{
+    background-color: white;
+    text-align: center;
+    margin: 0vw 20vw 0vw 20vw;
+}
