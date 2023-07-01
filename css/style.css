@@ -58,18 +58,27 @@
 }
 header{
     
-    background: url(../images/fondo.png);
+    /* background: url(../images/fondo.png); */
     height: 100vh;
-    background-image: url(../images/fondo.png);
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     /* border: 1px black solid; */
 }
 
+
+
+
 body{
     margin: 0%;
+    background-image: url(../images/fondo.png);
 }
+
+main{
+    background-color: gray;
+}
+
 
 
 footer{

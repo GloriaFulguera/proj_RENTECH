@@ -26,7 +26,6 @@
     list-style: none;
     display: inline-block;
     margin-right: 50px;
-    /* margin-top: 25px; */
     margin-left: 25px;
     
 }
@@ -46,7 +45,10 @@ body{
 .space{
     height: 15vh;
 }
-
+.rent{
+    background-color: #d813f26e;
+    height: 50vh;
+}
 
 img{
     width: 300px;
@@ -55,12 +57,9 @@ img{
 .product{
     color: azure;
     margin-left: 15%;
-    
-    /* margin-right: 5vw; */
     margin-bottom: 100px;
     display: inline-block;  
     background-color: black;
-    /* justify-content: flex-start; */
 }
 main{
      background-color: rgba(0, 0, 0, 0.514);
